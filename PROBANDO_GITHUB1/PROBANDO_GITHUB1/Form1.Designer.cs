@@ -30,6 +30,7 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.txtcargar = new System.Windows.Forms.TextBox();
+            this.btnSalida = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -50,11 +51,22 @@
             this.txtcargar.Size = new System.Drawing.Size(298, 20);
             this.txtcargar.TabIndex = 1;
             // 
+            // btnSalida
+            // 
+            this.btnSalida.Location = new System.Drawing.Point(123, 230);
+            this.btnSalida.Name = "btnSalida";
+            this.btnSalida.Size = new System.Drawing.Size(237, 126);
+            this.btnSalida.TabIndex = 2;
+            this.btnSalida.Text = "SALIDA";
+            this.btnSalida.UseVisualStyleBackColor = true;
+            this.btnSalida.Click += new System.EventHandler(this.btnSalida_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(457, 419);
+            this.Controls.Add(this.btnSalida);
             this.Controls.Add(this.txtcargar);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
@@ -68,6 +80,7 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtcargar;
+        private System.Windows.Forms.Button btnSalida;
     }
 }
 

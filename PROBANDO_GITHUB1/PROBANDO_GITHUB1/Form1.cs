@@ -16,5 +16,10 @@ namespace PROBANDO_GITHUB1
         {
             InitializeComponent();
         }
+
+        private void btnSalida_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
