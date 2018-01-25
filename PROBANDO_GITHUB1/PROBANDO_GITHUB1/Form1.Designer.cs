@@ -31,6 +31,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtcargar = new System.Windows.Forms.TextBox();
             this.btnSalida = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -61,11 +62,23 @@
             this.btnSalida.UseVisualStyleBackColor = true;
             this.btnSalida.Click += new System.EventHandler(this.btnSalida_Click);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.YellowGreen;
+            this.label2.Location = new System.Drawing.Point(116, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(206, 39);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "TITULARES";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(457, 419);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.btnSalida);
             this.Controls.Add(this.txtcargar);
             this.Controls.Add(this.label1);
@@ -81,6 +94,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtcargar;
         private System.Windows.Forms.Button btnSalida;
+        private System.Windows.Forms.Label label2;
     }
 }
 
