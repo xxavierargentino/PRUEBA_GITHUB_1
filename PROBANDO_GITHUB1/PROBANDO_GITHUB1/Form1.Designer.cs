@@ -33,6 +33,7 @@
             this.btnSalida = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.cmblista = new System.Windows.Forms.ComboBox();
+            this.chkElegir = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // label1
@@ -55,7 +56,7 @@
             // 
             // btnSalida
             // 
-            this.btnSalida.Location = new System.Drawing.Point(123, 230);
+            this.btnSalida.Location = new System.Drawing.Point(115, 199);
             this.btnSalida.Name = "btnSalida";
             this.btnSalida.Size = new System.Drawing.Size(237, 126);
             this.btnSalida.TabIndex = 2;
@@ -83,11 +84,22 @@
             this.cmblista.Size = new System.Drawing.Size(244, 21);
             this.cmblista.TabIndex = 4;
             // 
+            // chkElegir
+            // 
+            this.chkElegir.AutoSize = true;
+            this.chkElegir.Location = new System.Drawing.Point(202, 359);
+            this.chkElegir.Name = "chkElegir";
+            this.chkElegir.Size = new System.Drawing.Size(80, 17);
+            this.chkElegir.TabIndex = 5;
+            this.chkElegir.Text = "checkBox1";
+            this.chkElegir.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(457, 419);
+            this.Controls.Add(this.chkElegir);
             this.Controls.Add(this.cmblista);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnSalida);
@@ -107,6 +119,7 @@
         private System.Windows.Forms.Button btnSalida;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox cmblista;
+        private System.Windows.Forms.CheckBox chkElegir;
     }
 }
 
