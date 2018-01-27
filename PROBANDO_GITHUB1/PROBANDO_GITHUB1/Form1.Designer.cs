@@ -34,6 +34,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.cmblista = new System.Windows.Forms.ComboBox();
             this.chkElegir = new System.Windows.Forms.CheckBox();
+            this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
             this.SuspendLayout();
             // 
             // label1
@@ -94,11 +95,18 @@
             this.chkElegir.Text = "checkBox1";
             this.chkElegir.UseVisualStyleBackColor = true;
             // 
+            // monthCalendar1
+            // 
+            this.monthCalendar1.Location = new System.Drawing.Point(440, 81);
+            this.monthCalendar1.Name = "monthCalendar1";
+            this.monthCalendar1.TabIndex = 6;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(457, 419);
+            this.ClientSize = new System.Drawing.Size(731, 419);
+            this.Controls.Add(this.monthCalendar1);
             this.Controls.Add(this.chkElegir);
             this.Controls.Add(this.cmblista);
             this.Controls.Add(this.label2);
@@ -120,6 +128,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox cmblista;
         private System.Windows.Forms.CheckBox chkElegir;
+        private System.Windows.Forms.MonthCalendar monthCalendar1;
     }
 }
 
