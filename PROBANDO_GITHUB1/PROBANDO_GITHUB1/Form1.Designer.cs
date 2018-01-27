@@ -35,6 +35,7 @@
             this.cmblista = new System.Windows.Forms.ComboBox();
             this.chkElegir = new System.Windows.Forms.CheckBox();
             this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -101,11 +102,23 @@
             this.monthCalendar1.Name = "monthCalendar1";
             this.monthCalendar1.TabIndex = 6;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Blue;
+            this.label3.Location = new System.Drawing.Point(388, 271);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(179, 25);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "PROBANDO FER";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(731, 419);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.monthCalendar1);
             this.Controls.Add(this.chkElegir);
             this.Controls.Add(this.cmblista);
@@ -129,6 +142,7 @@
         private System.Windows.Forms.ComboBox cmblista;
         private System.Windows.Forms.CheckBox chkElegir;
         private System.Windows.Forms.MonthCalendar monthCalendar1;
+        private System.Windows.Forms.Label label3;
     }
 }
 
